@@ -206,8 +206,8 @@ public class Runigram {
 		int b2=c2.getBlue();
 
 		int r=(int)(alpha*r1+(1-alpha)*r2);
-		int g=(int)(alpha*r1+(1-alpha)*r2);
-		int b=(int)(alpha*r1+(1-alpha)*r2);
+		int g=(int)(alpha*g1+(1-alpha)*g2);
+		int b=(int)(alpha*b1+(1-alpha)*b2);
 		Color pixel= new Color(r,g,b);
 		return pixel;
 	}
